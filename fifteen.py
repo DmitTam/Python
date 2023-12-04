@@ -19,7 +19,7 @@ min_num = 10000
 
 for _ in range(count):
     current_num = randint(1, 10)
-    print(current_num, end = " ")
+    print(current_num, end=" ")
     if max_num < current_num:
         max_num = current_num
     if min_num > current_num:
